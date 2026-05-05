@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Lit Travel</title>
+  <meta name="description" content="Contact Lit Travel to start planning your next premium holiday from South Africa.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Lit Travel home">
+        <img class="brand-logo" src="assets/images/lit-travel-logo.jpeg" alt="Lit Travel logo" width="1195" height="1260">
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="destinations.html">Destinations</a>
+        <a href="deals.html">Deals</a>
+        <a class="active nav-cta" href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container narrow">
+        <p class="eyebrow">Get in touch</p>
+        <h1>Let's plan a journey that feels right from the very beginning.</h1>
+        <p class="lead">Tell us where you want to go, who you're travelling with and when you'd like to leave. We'll take it from there.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container contact-layout">
+        <div class="contact-card">
+          <h2>Request your travel quote</h2>
+          <form class="contact-form">
+            <label>
+              Full name
+              <input type="text" name="name" placeholder="Your name">
+            </label>
+            <label>
+              Email address
+              <input type="email" name="email" placeholder="you@example.com">
+            </label>
+            <label>
+              Phone number
+              <input type="tel" name="phone" placeholder="Your contact number">
+            </label>
+            <label>
+              Destination
+              <select name="destination">
+                <option value="">Select a destination</option>
+                <option>Mauritius</option>
+                <option>Zanzibar</option>
+                <option>Maldives</option>
+                <option>Seychelles</option>
+                <option>Bali</option>
+                <option>Thailand</option>
+                <option>Dubai</option>
+                <option>Europe</option>
+                <option>Africa</option>
+                <option>South Africa</option>
+                <option>Cruises</option>
+              </select>
+            </label>
+            <label>
+              Travel dates
+              <input type="text" name="travelDates" placeholder="Example: 12 Dec 2026 - 19 Dec 2026">
+            </label>
+            <div class="form-grid">
+              <label>
+                Number of adults
+                <input type="number" name="adults" min="1" placeholder="2">
+              </label>
+              <label>
+                Number of children
+                <input type="number" name="children" min="0" placeholder="0">
+              </label>
+            </div>
+            <label>
+              Budget
+              <input type="text" name="budget" placeholder="Example: R25,000 - R35,000 per person">
+            </label>
+            <button class="button button-primary" type="submit">Submit Quote Request</button>
+          </form>
+        </div>
+        <div class="contact-card contact-details">
+          <h2>Reach us directly</h2>
+          <p><strong>Office:</strong> Johannesburg, South Africa</p>
+          <p><strong>Phone / WhatsApp:</strong> <a href="tel:0812751340">081 275 1340</a></p>
+          <p><strong>Email:</strong> <a href="mailto:travel@littravel.co.za">travel@littravel.co.za</a></p>
+          <p><strong>Hours:</strong> Monday to Friday, 8:30 - 17:30</p>
+          <div class="mini-note">
+            <h3>What happens next?</h3>
+            <p>We'll review your enquiry, suggest suitable options and come back with next steps for a tailored itinerary.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="brand brand-footer" href="index.html" aria-label="Lit Travel home">
+          <img class="brand-logo brand-logo-footer" src="assets/images/lit-travel-logo.jpeg" alt="Lit Travel logo" width="1195" height="1260">
+        </a>
+        <p>Elegant journeys planned with care for South African travellers seeking comfort, confidence and exceptional experiences.</p>
+      </div>
+      <div>
+        <h3>Contact</h3>
+        <p>Johannesburg, South Africa</p>
+        <p><a href="tel:0812751340">081 275 1340</a></p>
+        <p><a href="mailto:travel@littravel.co.za">travel@littravel.co.za</a></p>
+      </div>
+      <div>
+        <h3>Hours</h3>
+        <p>Mon - Fri: 8:30 - 17:30</p>
+        <p>Sat: 9:00 - 13:00</p>
+        <p>Private consultations by appointment</p>
+      </div>
+      <div>
+        <h3>Explore</h3>
+        <p><a href="destinations.html">Destinations</a></p>
+        <p><a href="deals.html">Travel deals</a></p>
+        <p><a href="about.html">About Lit Travel</a></p>
+      </div>
+    </div>
+    <div class="container footer-bottom footer-bottom-links">
+      <p>&copy; <span id="year"></span> Lit Travel. All rights reserved.</p>
+      <div>
+        <a href="terms.html">Terms &amp; Conditions</a>
+        <a href="privacy.html">Privacy Policy</a>
+      </div>
+    </div>
+  </footer>
+
+  <a class="whatsapp-float" href="https://wa.me/27812751340" target="_blank" rel="noopener noreferrer" aria-label="Chat with Lit Travel on WhatsApp">WhatsApp</a>
+
+  <script src="script.js"></script>
+</body>
+</html>
